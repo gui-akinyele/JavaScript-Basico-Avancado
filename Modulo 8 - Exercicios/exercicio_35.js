@@ -7,20 +7,20 @@
 
 const calculadora = {
    soma: function soma(a, b){
-        console.log(a+b)
+        return a+b
     },
     subtrair: function subtrair(a, b){
-        console.log(a-b)
+        return a-b
     },
     dividir: function dividir(a, b){
-        console.log(a/b)
+        return a/b
     },
     multiplicar: function mutiplicar(a, b){
-        console.log(a*b)
+        return a*b
     }
 };
 
-calculadora.soma(50,5);
-calculadora.subtrair(50,5);
-calculadora.dividir(50,5);
-calculadora.multiplicar(50,5);
+console.log(calculadora.soma(50,5));
+console.log(calculadora.subtrair(50,5));
+console.log(calculadora.dividir(50,5));
+console.log(calculadora.multiplicar(50,5));
